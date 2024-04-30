@@ -1,0 +1,10 @@
+<section class="hero" [style.background-image]="'url(' + heroBackgroundImage + ')'" [ngClass]="{ 'hero--dark': isDark }">
+    <div class="hero-overlay" [ngStyle]="{ 'background-color': overlayColor }"></div>
+    <div class="container">
+        <div class="hero-title">
+          <h1 class="hero-heading">{{ title }}</h1>
+          <button class="book" [routerLink]="servicesLink">Book Now</button>
+        </div>
+    </div>
+  </section>
+

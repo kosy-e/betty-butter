@@ -1,0 +1,37 @@
+<nav #nav>
+  <label class="logo">Betty Butter</label>
+
+  <img
+    class="menu-icon"
+    (click)="onToggleNavbar()"
+    src="assets/icons/close-24px 1.png"
+  />
+
+  <ul>
+    <li><a class="active" href="#">Home</a></li>
+
+    <li>
+      <a routerLink="/services" routerLinkActive="active" class="nav-menu-link">
+        Gallery
+      </a>
+    </li>
+
+    <li>
+      <a routerLink="/about" routerLinkActive="active" class="nav-menu-link">
+        About
+      </a>
+    </li>
+
+    <li>
+      <a routerLink="/services" routerLinkActive="active" class="nav-menu-link">
+        Services
+      </a>
+    </li>
+
+    <li>
+      <a routerLink="/services" routerLinkActive="active" class="nav-menu-link">
+        Contact
+      </a>
+    </li>
+  </ul>
+</nav>

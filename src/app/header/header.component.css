@@ -1,0 +1,105 @@
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1f252a;
+  height: 80px;
+  width: 100%;
+  padding: 0 100px;
+}
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.menu-icon {
+  display: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.nav-menu-link {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a.active,
+a:hover {
+  transition: 0.5s;
+}
+
+@media (max-width: 991.98px) {
+  nav {
+    background: #1f252a;
+    height: 80px;
+    width: 100%;
+    padding: 0px 50px;
+  }
+
+  nav ul {
+    position: fixed;
+    inset: 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    padding: 80px 100px 0px 100px;
+    float: unset;
+    z-index: 1;
+  }
+
+  nav.active ul {
+    display: flex;
+  }
+
+  label.logo {
+    font-size: 30px;
+    z-index: 2;
+  }
+
+  nav.active label.logo {
+    color: black;
+  }
+
+  .menu-icon {
+    display: block;
+    z-index: 2;
+  }
+
+  nav ul li {
+    display: block;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+  }
+}
+

@@ -1,0 +1,217 @@
+.cta-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+  }
+  
+  .cta-img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .images1 {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    /* //   overflow: hidden;transition: all 0.5 ease;
+    // filter: grayscale(0.25js); */
+  }
+  
+  .images {
+    width: 309px;
+    height: 310px;
+    object-fit: cover;
+    /* //   overflow: hidden;transition: all 0.5 ease;
+    // filter: grayscale(0.25js); */
+  }
+  
+  .cta-form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  
+    .cta-input {
+      width: 453px;
+      height: 52px;
+      border: 1px solid #1f252a;
+      border-radius: 5px;
+      padding-left: 10px;
+      outline: none;
+    }
+  
+    .subscribe-btn {
+      width: 201px;
+      height: 52px;
+      border-radius: 5px;
+      border: none;
+      background-color: #2b7a78;
+      font-family: Josefin Sans;
+      align-items: centers;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: white;
+      outline: none;
+    }
+  }
+  
+  .overlay-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .overlay-text-1 {
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 85.31px;
+    text-align: center;
+    font-family: Playfair Display;
+    color: white;
+    transition: all 0.25s ease;
+  }
+  
+  .overlay-text-2 {
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.99px;
+    text-align: left;
+    color: white;
+  }
+  
+
+@media (max-width: 991.98px) {
+  .cta-input {
+    width: 100%;
+  }
+
+  .subscribe-btn {
+    width: 146.76px;
+    height: 43.65px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Roboto;
+    font-size: 13.09px;
+    font-weight: 700;
+    line-height: 15.34px;
+    text-align: center;
+  }
+  .cta-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 343.76px;
+    height: 44px;
+    padding-left: 50px;
+    
+  }
+
+  .subscribe-btn {
+    width: 148px;
+    font-family: Roboto;
+    font-size: 13.09px;
+    font-weight: 700;
+    line-height: 15.34px;
+  }
+
+  .overlay-text-1 {
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.99px;
+    text-align: center;
+  }
+
+  .overlay-text-2 {
+    font-family: Roboto;
+    padding-top: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: center;
+  }
+
+  .cta-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    overflow: hidden;
+
+  }
+
+  .cta-semi{
+    width: 100%;
+  }
+
+  .images1 {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    /* //   overflow: hidden;transition: all 0.5 ease;
+    // filter: grayscale(0.25js); */
+  }
+
+  .images {
+    width: 309px;
+    height: 310px;
+    object-fit: cover;
+    display: none;
+    /* //   overflow: hidden;transition: all 0.5 ease;
+    // filter: grayscale(0.25js); */
+  }
+
+  .overlay-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 9999;
+    
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    
+  }
+
+  .cta-img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+   
+  }
+
+
+  
+
+}

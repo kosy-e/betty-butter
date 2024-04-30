@@ -1,0 +1,67 @@
+<section class="contact">
+    <div class="container">
+      <div class="contact-form">
+        <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+          <h2>Send Us A Message</h2>
+  
+          <div class="form-group">
+            <input
+              type="text"
+              id="fullName"
+              [(ngModel)]="contact.fullName"
+              required
+            />
+            <span>Full Name</span>
+          </div>
+  
+          <div class="form-group">
+            <input type="email" id="email" [(ngModel)]="contact.email" required />
+            <span>Email</span>
+          </div>
+  
+          <div class="form-group">
+            <textarea
+              id="message"
+              rows="3"
+              [(ngModel)]="contact.message"
+              required
+            ></textarea>
+            <span>Message</span>
+          </div>
+  
+          <div class="form-group">
+            <input type="submit" name="" value="Send" />
+          </div>
+        </form>
+      </div>
+  
+      <div class="contactInfo">
+        <h2 class="contact-text">Contact US</h2>
+  
+        <div class="box">
+          <div class="icon">
+            <img src="/assets/icons/phone-icon.png" />
+          </div>
+          <div class="text">
+            <p>+1-8775756702</p>
+          </div>
+        </div>
+  
+        <div class="box">
+          <div class="icon"><img src="/assets/icons/at-icon.png" /></div>
+          <div class="text">
+            <p>info&#64;bettybutter.com</p>
+          </div>
+        </div>
+  
+        <div class="box">
+          <div class="icon">
+            <img src="/assets/icons/home-icon.png" />
+          </div>
+          <div class="text">
+            <p>27 Allen avenue, Downtown, New York</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

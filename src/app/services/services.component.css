@@ -1,0 +1,243 @@
+.service-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+
+h2 {
+  text-align: center;
+  color: #7a7a7a;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 63.98px;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.service-page-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  
+}
+
+.image-first-box {
+  position: relative;
+  color: white;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 53.32px;
+  text-align: center;
+}
+
+.image-first-box img {
+  width: 779px;
+  height: 499px;
+}
+
+.image-second-box {
+  position: relative;
+  color: white;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 53.32px;
+  text-align: center;
+}
+
+.image-second-box img {
+  width: 519px;
+  height: 499px;
+  top: 3048px;
+  left: 852px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.image-third-box {
+  position: relative;
+  color: white;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 53.32px;
+  text-align: center;
+}
+
+.image-third-box img {
+  width: 519px;
+  height: 499px;
+  top: 3565px;
+  left: 63px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.image-fourth-box {
+  position: relative;
+  color: white;
+  font-family: Playfair Display;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 53.32px;
+  text-align: center;
+}
+
+.image-fourth-box img {
+  width: 779px;
+  height: 499px;
+  top: 3565px;
+  left: 596px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.text-1 {
+  position: absolute;
+  bottom: 20px;
+  left: 200px;
+  text-align: center;
+}
+
+.text-2 {
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+  text-align: center;
+}
+
+.text-3 {
+  position: absolute;
+  bottom: 45px;
+  left: 100px;
+  text-align: center;
+}
+
+.text-4 {
+  position: absolute;
+  bottom: 45px;
+  left: 200px;
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  .service-page {
+    width: 100%;
+  }
+
+  h2 {
+    text-align: center;
+    color: #7a7a7a;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63.98px;
+    text-align: center;
+    padding-top: 2%;
+  }
+
+  .service-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 50px;
+    gap: 12px;
+    overflow: hidden;
+    justify-self: center;
+    align-items: center;
+  }
+
+  .service-page-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .image-first-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-second-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-third-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-fourth-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-first-box img {
+    object-fit: cover;
+    width: 375px;
+    height: 216px;
+    top: 1638px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .image-second-box img {
+    object-fit: cover;
+    width: 375px;
+    height: 216px;
+    top: 1638px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .image-third-box img {
+    object-fit: cover;
+    width: 375px;
+    height: 216px;
+    top: 1638px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .image-fourth-box img {
+    object-fit: cover;
+    width: 375px;
+    height: 216px;
+    top: 1638px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .text-1 {
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.33px;
+  }
+
+  .text-2 {
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.33p;
+  }
+}

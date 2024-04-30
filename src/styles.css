@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+  
+  a:link,
+  a:visited {
+    color: inherit;
+  }
+  
+  a:hover {
+    color: rgba(122, 122, 122, 1);
+  }
+  
+  a:active {
+    color: rgba(122, 122, 122, 1);
+  }
+  
+  html,
+  body {
+    height: 100%;
+    font-family: Playfair Display;
+  }
